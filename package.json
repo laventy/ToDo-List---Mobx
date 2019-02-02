@@ -1,0 +1,37 @@
+{
+  "name": "Mobx-ToDo-Lists",
+  "version": "1.0.0",
+  "private": true,
+  "author": {
+    "name": "Xiaolei Liu",
+    "email": "xiaolei.liu@accenture.com"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eslint": "eslint src || true",
+    "prettier": "prettier --single-quote --write 'src/**/*.{js,json,css}'"
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.3.2",
+    "@material-ui/icons": "^3.0.1",
+    "lodash": "^4.17.11",
+    "mobx": "^5.5.0",
+    "mobx-react": "^5.2.8",
+    "prop-types": "^15.6.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "custom-react-scripts": "^0.2.2",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.9.1",
+    "mobx-react-devtools": "^5.0.1",
+    "prettier": "^1.14.3"
+  }
+}
